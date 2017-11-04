@@ -16,8 +16,7 @@ Time spent: **3** hours spent in total
     - Fixed in version: 4.2.10
   - [X] GIF Walkthrough: <img src='https://imgur.com/yDcjSOu.gif' />
   - [X] Steps to recreate:
-    - Save an image with the file name such as:
-        "NameFile<img src=a onerror=alert(document.cookie)>.jpg"
+    - Save an image with the file name such as: NameFile<img src=a onerror=alert(document.cookie)>.jpg
     - Upload the image as an admin to WordPress & open the attachment page
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
@@ -29,8 +28,7 @@ Time spent: **3** hours spent in total
     - Fixed in version: 4.2.3
   - [X] GIF Walkthrough: <img src='https://i.imgur.com/TUtTsXG.gif' />
   - [X] Steps to recreate:
-    - Log onto a contributor or author level account. Create a post in html with the content of :
-      "<a href = "[caption code=">"]</a><a title=" onmouseover=alert('test') ">link</a>"
+    - Log onto a contributor or author level account. Create a post in html with the content of: <a href = "[caption code=">"]</a><a title=" onmouseover=alert('test') ">link</a>
     - Log onto administrator account and view the post
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php?rev=33359)
@@ -41,8 +39,7 @@ Time spent: **3** hours spent in total
     - Fixed in version: 4.2.15
   - [X] GIF Walkthrough: <img src='https://i.imgur.com/l8O5Ioa.gif' />
   - [X] Steps to recreate:
-    - Create a file larger than 2 MB (the maximum upload size) with the file name such as:
-      "NameFile<img src=x onerror=alert('boo')>.jpg"
+    - Create a file larger than 2 MB (the maximum upload size) with the file name such as: NameFile<img src=x onerror=alert('boo')>.jpg
     - Upload the video as an admin to WordPress Media
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
