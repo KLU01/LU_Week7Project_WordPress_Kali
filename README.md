@@ -30,10 +30,11 @@ Time spent: **3** hours spent in total
   - [X] GIF Walkthrough: <img src='https://i.imgur.com/TUtTsXG.gif' />
   - [X] Steps to recreate:
     - Log onto a contributor or author level account. Create a post in html with the content of: 
-        \<a href = "[caption code=">"]</a><a title=" onmouseover=alert('test') ">link</a>
+        \<a href = "[caption code=">"]\</a>\<a title=" onmouseover=alert('test') ">link\</a>
     - Log onto administrator account and view the post
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php?rev=33359)
+
 3. WordPress 3.3-4.7.4 - Large File Upload Error XSS
   - [X] Summary: An attacker can inject malicious script into the filename of a video as an administrator.
     - Vulnerability types: XXS
