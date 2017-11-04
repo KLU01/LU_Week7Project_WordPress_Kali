@@ -16,7 +16,8 @@ Time spent: **3** hours spent in total
     - Fixed in version: 4.2.10
   - [X] GIF Walkthrough: <img src='https://imgur.com/yDcjSOu.gif' />
   - [X] Steps to recreate:
-    - Save an image with the file name such as: NameFile<img src=a onerror=alert(document.cookie)>.jpg
+    - Save an image with the file name such as: 
+      > NameFile<img src=a onerror=alert(document.cookie)>.jpg
     - Upload the image as an admin to WordPress & open the attachment page
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
